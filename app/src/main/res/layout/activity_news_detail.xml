@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context="com.bao.island.ui.activity.NewsDetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_laout" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="排洪滩"
+                    android:textColor="@color/black"
+
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/tv_desc"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="摘要：排洪滩在北纬15度38分，东经113度43分。位于中沙大环礁西部边缘。东南距果淀暗沙4.3海里，东北距涛静暗沙约9.7海里。小于20米水深线的面积约10方公里，最浅处水深16米。"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:text="    排洪滩在北纬15度38分，东经113度43分。位于中沙大环礁西部边缘。东南距果淀暗沙4.3海里，东北距涛静暗沙约9.7海里。小于20米水深线的面积约10方公里，最浅处水深16米。1947年和1983年公布名称为排洪滩。有些外文图书称为Penguin Shoal。"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/linear_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_collect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/selector_collect"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+      />
+
+
+</FrameLayout>

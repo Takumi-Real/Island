@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Island</string>
+    <string name="dongsha">东沙群岛</string>
+    <string name="xisha">西沙群岛</string>
+    <string name="zhongsha">中沙群岛</string>
+    <string name="nansha">南沙群岛</string>
+
+
+    <string name="myFavorite">我的收藏</string>
+    <string name="download">下载</string>
+    <string name="clearCache">清理缓存</string>
+
+    <string name="share">分享</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
